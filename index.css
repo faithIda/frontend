@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    min-height: -webkit-fill-available;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* menu design */
+#product{
+    background: #ebe3db; 
+}
+.brand-logo{
+    padding: 0 30px;
+}
+.brand-logo img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.product-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: rgb(25,25,27);
+    font-weight: 300;
+
+}
+.product-item a:hover{
+    background: #91918c;
+}
+
+#food-container{
+    background: #31b6b0;
+}
+#cart{
+    background: #99c6c0;
+}
