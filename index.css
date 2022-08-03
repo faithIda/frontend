@@ -85,7 +85,19 @@ body{
 .add-box.i{
     font-size: 20px;
 }
-.util
+.util i,.user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid #31b6b0;
+    padding: 8px 16px;
+    color: #31b6b0; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+.util i:active{
+    color: white;
+    background: #31b6b0;
+}
 .food-items{
 
 }
